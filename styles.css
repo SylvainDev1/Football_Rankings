@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+
+.bg{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin: 4rem 12rem;
+}
+
+#table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #121515;
+    border-radius: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  th{
+    position: sticky;
+    top: 0;
+    background-color: #121515;
+    color: rgb(238, 79, 79);
+    min-width: 6rem;
+    padding: 1rem 1rem;
+    font-style: italic;
+    font-weight: normal;
+    z-index: 2;
+}
+
+tr:nth-child(even) {
+    background-color: #393636;
+}
+
+td{
+    padding: 0.2rem 0rem;
+    color: white;
+    font-size: 90%;
+}
+td > img{
+    width: 25%;
+    transform: translateY(5%);
+    z-index: 1;
+}
+
+#teamName{
+    text-align: left;
+    font-size: 80%;
+}
+
+#points{
+    font-size: 120%;
+    color: rgb(238, 79, 79);
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 40%;
+    width: 12%;
+    border-radius: 0em 1em 1em 0em;
+    background-color: #121515; 
+    opacity: 80%;
+    color: antiquewhite;
+    left: 0;
+    top: 5%;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 4;
+    transition: .5s;
+}
+
+.span{
+    margin: 1rem 1rem;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+.hide{
+    transition-delay: .4s;
+}
+
+.span-closed{
+    transition: .1s;
+    transform: translateX(-100%);
+}
+
+.sidenav span:hover {
+    cursor: pointer;
+    color: rgb(238, 79, 79);
+  }
+
+.slidebtn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    display: none;
+  }
+
+  .slidebtn2{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    display: inline;
+  }
+
+  .sidenav-closed{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 2%;
+}
