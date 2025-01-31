@@ -12,15 +12,15 @@ var requestOptions = {
 // >>>>>>>>>>>leagues: france=61 england=39 italy=135 Germany=78 spain=140
 
 const urlFR =
-  "https://v3.football.api-sports.io/standings?league=61&season=2023";
+  "https://v3.football.api-sports.io/standings?league=61&season=2024";
 const urlUK =
-  "https://v3.football.api-sports.io/standings?league=39&season=2023";
+  "https://v3.football.api-sports.io/standings?league=39&season=2024";
 const urlIT =
-  "https://v3.football.api-sports.io/standings?league=135&season=2023";
+  "https://v3.football.api-sports.io/standings?league=135&season=2024";
 const urlES =
-  "https://v3.football.api-sports.io/standings?league=140&season=2023";
+  "https://v3.football.api-sports.io/standings?league=140&season=2024";
 const urlDE =
-  "https://v3.football.api-sports.io/standings?league=78&season=2023";
+  "https://v3.football.api-sports.io/standings?league=78&season=2024";
 
 const pl = document.getElementById("pl");
 const liga = document.getElementById("liga");
