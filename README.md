@@ -6,7 +6,7 @@ HTML, CSS, JS, FetchAPI
 Built from scratch to practice getting data from an API. 
 [Link](https://api-sports.io/documentation/football/v3)
 
-_Recently updated to fetch data for newly started seasons (2023), and add logos for newly promoted teams to the "logo database" (Images folder)_
+_Recently updated to fetch data for newly started seasons (2024), and add logos for newly promoted teams to the "logo database" (Images folder)_
 
 **Features:**
 - Sliding menu to select between 4 leagues
